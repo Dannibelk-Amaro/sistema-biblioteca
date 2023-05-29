@@ -1,0 +1,575 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-shadow: none;
+    font-family: arial, fantasy;
+}
+
+body {
+    background-color: rgb(183 151 151 / 58%);
+}
+
+.cinta {
+    width: 98.1%;
+    height: 30px;
+    padding: 1%;
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cinta img {
+    width: 3%;
+    height: 90%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+h1 {
+    width: 70%;
+    font-size: 1em;
+    height: 80%;
+    margin: 0px;
+    text-align: center;
+    display: contents;
+}
+
+footer {
+    background: white;
+    height: 25px;
+    width: 99.4%;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuerpo {
+    background: white;
+    width: 96%;
+    margin: 2%;
+    height: 460px;
+    display: flex;
+}
+
+.nav {
+    width: 150px;
+    padding: 3% 2% 2% 2%;
+    background-color: rgb(139 0 0 / 80%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contenedor {
+    width: 100%;
+    height: 450px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.titulo {
+    width: 98%;
+    padding-left: 2%;
+    display: flex;
+    color: white;
+    background: rgb(139 0 0 / 80%);
+    height: 36px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.busqueda {
+    width: 96%;
+    display: flex;
+    justify-content: flex-end;
+    height: 25px;
+    padding: 1% 0% 1% 0%;
+    align-items: center;
+}
+
+.barra {
+    width: 99.9%;
+    border-bottom: 1px solid #a03735;
+    border-right: 1px solid #a03735;
+    height: calc(523px - 100px);
+    overflow-y: auto;
+}
+
+.contenido {
+    width: 100%;
+    height: 400px;
+}
+
+.btn_inicio a {
+    border: 1px solid rgb(139 0 0 / 80%);
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    margin: 9%;
+    width: 70%;
+    height: 100px;
+}
+
+select {
+    border: none;
+    border-bottom: 1px solid;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 15px;
+}
+
+button {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 1%;
+    width: 70px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: darkgrey;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.button {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 3px;
+    width: 8%;
+    margin-bottom: 0px;
+    margin-left: 1%;
+    font-size: 10px;
+}
+
+.button:hover {
+    background-color: darkgrey;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.libro {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.return {
+    color: #a03735;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+
+
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid #a03735;
+    padding: 8px;
+    font-size: 12px;
+}
+
+.lista.list {
+    width: 25%;
+}
+
+.lista {
+    display: inline-flex;
+    width: 81%;
+    justify-content: space-evenly;
+}
+
+.tabla {
+    margin: 1%;
+}
+
+tfoot th {
+    text-align: end;
+}
+
+
+
+.libreria {
+    border: 1px solid #a03735;
+    border-radius: 5px;
+    display: flex;
+    padding: 2%;
+    margin: 2%;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+input[type="text"] {
+    border: none;
+    padding: 3px;
+    margin-left: 1%;
+    border-bottom: 1px solid;
+}
+
+.botones {
+    width: 200px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.descripcion {
+    border: 1px solid #a03735;
+    border-radius: 5px;
+    display: flex;
+    width: 85%;
+    padding: 3%;
+    height: 250px;
+    margin: 2%;
+    align-items: center;
+}
+
+.img-libro {
+    height: auto;
+    border-radius: 5px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    margin: 2%;
+}
+
+.img {
+    width: 80%;
+    padding: 2%;
+    height: auto;
+}
+
+img#result {
+    width: 160px;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+input#imagen {
+    margin: 6%;
+    width: 133px;
+}
+
+.img-inicio {
+    padding: 1%;
+    width: 90px;
+    height: 100px;
+}
+
+label {
+    display: flex;
+    width: 140px;
+    justify-content: flex-end;
+}
+
+
+
+h3 {
+    padding-left: 2%;
+    height: 30px;
+    width: 100%;
+    display: block;
+    margin: 0px;
+    margin-top: 1%;
+    text-align: left;
+}
+
+.usuario {
+    border-radius: 5px;
+    border: 1px solid #a03735;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    margin: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div#prestamo {
+    padding: 1% 2% 0% 2%;
+    width: 96%;
+}
+
+.usuario div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    margin: 1%;
+}
+
+
+
+.buscador {
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    height: 10%;
+    margin: 0px 3px 3px 3px;
+}
+
+
+
+.prestamo {
+    border: 1px solid #a03735;
+    border-radius: 5px;
+    width: 94%;
+    /* margin-top: 8px; */
+    margin-bottom: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.data-libro {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 295px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.buscador h4 {
+    width: auto;
+}
+
+h4 {
+    margin: 1%;
+    width: 155px;
+    padding: 1%;
+    text-align: end;
+    font-size: 15px;
+}
+
+.data-usuario {
+    margin: 2%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fecha-prestamo {
+    width: 45%;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+input#fecha {
+    border: none;
+    border-bottom: 1px solid;
+    margin: 4%;
+}
+
+.condicion {
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+.usuario div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: flex-start;
+}
+
+.nota {
+    color: red;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+}
+
+.descripcion-libro {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    height: 200;
+}
+
+p {
+    margin: 0px;
+    width: 100px;
+}
+
+.retiro-usuario {
+    display: flex;
+    flex-direction: column;
+}
+
+.retiro-usuario div {
+    display: flex;
+    align-items: center;
+}
+
+.condicion div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 100%;
+}
+
+nav ul a {
+    color: white;
+    background: #a03735;
+    display: block;
+    width: 100%;
+    padding: 6px 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+li a {
+    border-bottom: 1px solid white;
+}
+
+nav ul ul {
+    height: 0px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+nav ul li:hover ul {
+    height: auto;
+    overflow: hidden;
+}
+
+nav a:hover{
+    background-color: darkgrey;
+    color: white;
+}
+
+.btn_inicio {
+    width: 130px;
+    border: 1px solid #a03735;
+    border-radius: 5px;
+    margin: 25px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dato-libro {
+    text-align: center;
+    display: flex;
+}
+
+.img-inicio img {
+    width: 85px;
+    height: 90px;
+}
+
+.boton a {
+    display: flex;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.boton a:hover {
+    background: darkgrey;
+    color: white;
+    border: 1px solid;
+}
+
+.lista-libreria {
+    width: 30%;
+}
+
+input[type="num"] {
+    width: 16px;
+    border: none;
+    padding: 3px;
+    margin-left: 1%;
+    border-bottom: 1px solid;
+}
+
+.libreria div {
+    width: 100%;
+    display: flex;
+}
+
+.botones .cancelar {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 1%;
+    width: 70px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    text-align:center;
+}
+
+.boton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.botones .cancelar:hover{
+    background: darkgrey;
+    color: white;
+    border: 1px solid;
+}
+
+form.datos-usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.libro div {
+    display: flex;
+    width: 100%;
+    margin: 5px;
+}
